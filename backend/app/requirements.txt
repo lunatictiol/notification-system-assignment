@@ -3,5 +3,6 @@ uvicorn
 pydantic
 firebase-admin
 pika
-sqlalchemy 
+sqlalchemy
 aiosqlite
+asyncpg

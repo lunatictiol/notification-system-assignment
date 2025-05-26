@@ -4,7 +4,7 @@ import firebase_admin
 from firebase_admin import credentials
 from firebase_admin import messaging
     
-cred = credentials.Certificate("/etc/secrets/notificationserver.json")
+cred = credentials.Certificate("/notification-system-ffa63-32d7c97a0923.json")
 firebase_admin.initialize_app(cred)
 
 print("Consumer running...")
